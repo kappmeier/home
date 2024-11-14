@@ -3,3 +3,5 @@
 [user]
 	email = jp.kappmeier@gmail.com
 	name = Jan-Philipp Kappmeier
+[core]
+	excludesFile = ~/.gitignore.global
