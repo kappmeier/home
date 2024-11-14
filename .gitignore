@@ -1,0 +1,7 @@
+# Ignore everything by default
+*
+
+# Not these files:
+# Setup of git managed home directory
+!.gitignore*
+
