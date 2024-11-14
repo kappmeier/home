@@ -18,9 +18,20 @@ home reset --hard origin/main
 On a new machine, a new SSH key must be created (or the existing Key retrieved
 elsewhere.
 
+### Create a new SSH key
+
 ```
 ssh-keygen -t ed25519 -C "jp.kappmeier@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
+```
+
+# Upload to GitHub
+
+The created key must be uploaded to GitHub keys.
+
+```
+cat ~/.ssh/id_ed25519.pub
+xdg-open "https://github.com/settings/keys"
 ```
 
