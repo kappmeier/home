@@ -116,4 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-asdf
+# Enable git managed home directory
+alias home="git --work-tree=$HOME --git-dir=$HOME/.home.git"
+
