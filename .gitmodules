@@ -1,0 +1,3 @@
+[submodule ".local/share/scripts"]
+	path = .local/share/scripts
+	url = git@github.com:kappmeier/scripts.git
