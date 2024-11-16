@@ -2,7 +2,16 @@
 *
 
 # Not these files:
-# Setup of git managed home directory
+
+## Setup of git managed home directory
 !*.bashrc
 !.gitignore*
+
+##
+!.local/
+.local/bin/*
+!.local/bin/
+.local/bin/install/*
+!.local/bin/install/
+!.local/bin/install/**
 
