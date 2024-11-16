@@ -119,3 +119,9 @@ fi
 # Enable git managed home directory
 alias home="git --work-tree=$HOME --git-dir=$HOME/.home.git"
 
+# Enable pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
