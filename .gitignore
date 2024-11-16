@@ -5,6 +5,7 @@
 
 ## Setup of git managed home directory
 !*.bashrc
+!.profile
 !.gitignore*
 
 ##
