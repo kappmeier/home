@@ -17,4 +17,9 @@ sudo apt-get install -y build-essential gdb lcov pkg-config \
 sudo apt-get install curl
 curl https://pyenv.run | bash
 
+# Install a new global python
+pyenv install 3.12
+
+# Make it the global python
+pyenv global 3.12
 
