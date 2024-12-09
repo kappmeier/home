@@ -25,3 +25,9 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# set PATH to contain the custom install scripts
+if [ -d "$HOME/.local/bin/install" ] ; then
+    PATH="$HOME/.local/bin/install:$PATH"
+fi
+
