@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Installs the latest pycharm from Snap
+
+sudo snap install PyCharm-community --classic
+
