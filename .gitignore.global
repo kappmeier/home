@@ -1,1 +1,3 @@
 # Global ignores
+# Temporary editor files
+*.swp
