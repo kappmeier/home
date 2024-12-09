@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Installs the latest Intellij IDEA from Snap
+
+sudo snap install intellij-idea-community --classic
+
