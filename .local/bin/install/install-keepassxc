@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Installs KeePassXC
+
+sudo apt-get update
+sudo apt-get install keepassxc -y
