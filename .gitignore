@@ -8,7 +8,7 @@
 !.profile
 !.gitignore*
 
-##
+## Local installed software
 !.local/
 .local/bin/*
 !.local/bin/
@@ -16,3 +16,6 @@
 !.local/bin/install/
 !.local/bin/install/**
 
+## Security
+!.ssh/
+!.ssh/config
