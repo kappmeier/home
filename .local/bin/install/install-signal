@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Installs the latest Signal from Snap
+
+sudo snap install signal-desktop
+
