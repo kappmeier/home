@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#
+# Installation of LaTeX environment, including editor and all required packages.
+
+# Base system
+sudo apt-get install texlive texlive-latex-extra texlive-generic-extra -y
+
+# XeLaTeX
+sudo apt-get install texlive-xetex -y
+
+# German environment
+sudo apt-get install texlive-lang-german -y
+
+# Additional fonts
+sudo apt-get install texlive-fonts-extra -y
+
+# Editor
+sudo apt-get install kile -y
+
+
