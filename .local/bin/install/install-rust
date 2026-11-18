@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Install rust and cargo in a working version for Ubuntu
+# Avoids the trap that rustc/cargo are frozen in apt
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+
+# Installed tools
+#cargo install keepass-diff # off by default
+
