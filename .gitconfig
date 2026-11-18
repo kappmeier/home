@@ -5,3 +5,4 @@
 	name = Jan-Philipp Kappmeier
 [core]
 	excludesFile = ~/.gitignore.global
+	editor = vim
