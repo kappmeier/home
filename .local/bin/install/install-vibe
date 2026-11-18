@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+curl -LsSf https://mistral.ai/vibe/install.sh | bash
+
