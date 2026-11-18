@@ -4,7 +4,7 @@ My home directory for Ubuntu machines.
 
 ## Add to a computer
 
-```
+```bash
 alias home="git --work-tree=$HOME --git-dir=$HOME/.home.git"
 home init
 home remote add origin git@github.com:kappmeier/home.git
@@ -21,7 +21,7 @@ be used for signing as well.
 
 ### Create new SSH keys
 
-```
+```bash
 ssh-keygen -t ed25519 -C "jp.kappmeier@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
@@ -34,7 +34,7 @@ ssh-add "$HOME/.ssh/id_ed25519_signing"
 The created keys must be uploaded to GitHub keys. The first as `Authentication Key`, the second as
 `Signing Key`.
 
-```
+```bash
 cat ~/.ssh/id_ed25519.pub
 cat ~/.ssh/id_ed25519_signing.pub
 xdg-open "https://github.com/settings/keys"
